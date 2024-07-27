@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(150, 150, 255);
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 200px;
+    font-size: 50px;
+    border: 5px solid rgb(255, 104, 104);
+    padding: 20px;
+    border-radius: 50px;
+    color: black;
+}
+
+a:focus {
+    box-shadow: inset 0 5px 0 2px rgb(255, 104, 104);
+    color: black;
+    margin-top: 210px;
+}
