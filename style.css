@@ -19,3 +19,8 @@ a:focus {
     color: black;
     margin-top: 210px;
 }
+
+img {
+    hight: 900px;
+    width: 900px;
+}
