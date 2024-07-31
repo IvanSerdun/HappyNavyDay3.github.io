@@ -3,15 +3,17 @@ body {
 }
 
 a {
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    margin-top: 200px;
+   text-decoration: none;
+    margin-top: 50px;
     font-size: 50px;
     border: 5px solid rgb(255, 104, 104);
     padding: 20px;
     border-radius: 50px;
     color: black;
+    hight: 100px;
+    width: 100%;
+    text-align: center;
+   
 }
 
 a:focus {
@@ -21,6 +23,13 @@ a:focus {
 }
 
 img {
-    hight: 900px;
-    width: 900px;
+        hight: 200px;
+    width: 20%
+    
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
